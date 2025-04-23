@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CalCuus</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="Image/android-chrome-192x192.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="calculator">
         <div class="display" id="display">0</div>
         <div class="buttons">
+
+            <!-- AppendNumber appends/ adds that value after the last value in the display -->
+            <!-- AppendOperator appends/ adds that operator after the last value in the display -->
+            <!-- Calculate evaluates the expression in the display and shows the result -->
             <button class="btn" onclick="clearDisplay()">C</button>
             <button class="btn" onclick="deleteLast()">DEL</button>
             <button class="btn" onclick="appendOperator('%')">%</button>
